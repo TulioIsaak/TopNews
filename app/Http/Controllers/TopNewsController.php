@@ -8,9 +8,9 @@ use App\Http\Requests;
 
 class TopNewsController extends Controller
 {
-    public function loginController()
+    public function loginController($nome)
     {
-        return view('login');
+        return view('login', ['nome'=>$nome]);
     }
     
     public function newsController()

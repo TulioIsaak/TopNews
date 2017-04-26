@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Login lsakdflkasjhgdlk</div>
+                <div class="title"> {{ $nome }} </div>
             </div>
         </div>
     </body>
