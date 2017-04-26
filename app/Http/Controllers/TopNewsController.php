@@ -8,12 +8,12 @@ use App\Http\Requests;
 
 class TopNewsController extends Controller
 {
-    public function loginCtroller()
+    public function loginController()
     {
         return view('login');
     }
     
-    public function newsCtroller()
+    public function newsController()
     {
         return view('news');
     }

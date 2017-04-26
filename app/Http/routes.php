@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('news', 'TopNewsController@loginCtroller') ;
-Route::get('news', 'TopNewsController@newsCtroller') ;
+Route::get('login', 'TopNewsController@loginController') ;
+Route::get('news', 'TopNewsController@newsController') ;
