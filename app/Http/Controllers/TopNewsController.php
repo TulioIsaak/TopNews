@@ -8,8 +8,13 @@ use App\Http\Requests;
 
 class TopNewsController extends Controller
 {
-    public function index()
+    public function loginCtroller()
     {
-        return "Hello Word!!";
+        return view('login');
+    }
+    
+    public function newsCtroller()
+    {
+        return view('news');
     }
 }

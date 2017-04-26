@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('news', 'TopNewsController@index');
+
+Route::get('news', 'TopNewsController@loginCtroller') ;
+Route::get('news', 'TopNewsController@newsCtroller') ;
