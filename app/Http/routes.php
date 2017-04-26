@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('blade', function () {
+    return view('child');
+});
+
 
 Route::get('login/{nome}', 'TopNewsController@loginController') ;
 Route::get('news', 'TopNewsController@newsController') ;
+Route::get('teste', 'TopNewsController@testeController') ;

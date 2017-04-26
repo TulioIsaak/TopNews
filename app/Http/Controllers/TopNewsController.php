@@ -17,4 +17,9 @@ class TopNewsController extends Controller
     {
         return view('news');
     }
+    
+    public function testeController()
+    {
+        return view('teste');
+    }
 }
