@@ -22,4 +22,4 @@ Route::get('blade', function () {
 
 Route::get('login/{nome}', 'TopNewsController@loginController') ;
 Route::get('news', 'TopNewsController@newsController') ;
-Route::get('teste', 'TopNewsController@testeController') ;
+Route::get('test', 'TopNewsController@testController') ;

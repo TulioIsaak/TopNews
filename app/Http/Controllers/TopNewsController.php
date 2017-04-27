@@ -18,8 +18,8 @@ class TopNewsController extends Controller
         return view('news');
     }
     
-    public function testeController()
+    public function testController()
     {
-        return view('teste');
+        return view('test');
     }
 }
