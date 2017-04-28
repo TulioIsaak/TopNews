@@ -23,3 +23,4 @@ Route::get('blade', function () {
 Route::get('login/{nome}', 'TopNewsController@loginController') ;
 Route::get('news', 'TopNewsController@newsController') ;
 Route::get('test', 'TopNewsController@testController') ;
+Route::get('/{newList?}', 'NewsController@listing') ;
